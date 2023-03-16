@@ -12,7 +12,7 @@ suite("Authentication API tests", async () => {
   });
 
   test("Authenticate User", async () => {
-    const returnedUser = await playtimeService.createUser(maggie);
+    // const returnedUser = await playtimeService.createUser(maggie);
     const response = await playtimeService.authenticate(maggieCredentials);
     assert(response.success);
     assert.isDefined(response.token);

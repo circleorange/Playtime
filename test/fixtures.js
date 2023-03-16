@@ -1,4 +1,5 @@
-export const serviceUrl = "http://localhost:3000";
+// export const serviceUrl = "http://localhost:3000";
+export const serviceUrl = "https://playtime-gnzr.onrender.com/dashboard";
 
 export const maggie = {
   firstName: "Maggie",

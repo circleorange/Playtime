@@ -1,9 +1,15 @@
 {{> menu}}
 
-<section class="section">
-  <div class="title">
-    {{playlist.title}}
+<section class="section columns is-vcentered">
+  <div class="column has-text-centered">
+    <div class="title">
+      {{playlist.title}}
+    </div>
+    {{> list-tracks}}
+    {{> add-track}}
   </div>
-  {{> list-tracks}}
-  {{> add-track}}
+  <div class="column">
+    {{> playlist-image }}
+  </div>
 </section>
+
